@@ -22,3 +22,16 @@ ReactDOM.render(<App />, document.getElementById("root"))
 -- to use javascript in react we utilize the curly braces --
 
 anything in the curly braces can be ran as JS.
+
+
+Props in react are often times destructured when they are passed in 
+
+// const person = {
+//     img: "./images/mr-whiskerson.png",
+//     name: "Mr. Whiskerson",
+//     phone: "(800) 555-1234",
+//     email: "mr.whiskaz@catnap.meow"
+// }
+
+// const {img, name} = person
+// console.log(name)
